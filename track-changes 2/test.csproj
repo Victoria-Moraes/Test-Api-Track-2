@@ -1,0 +1,134 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{31D310C3-3EBB-4006-BE09-97F6B98E5FBE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>test</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".DS_Store" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\track-changes\FileContentIndex\5cb1e207-d9eb-4995-937b-023f0df4b70a.vsidx" />
+    <None Include=".vs\track-changes\FileContentIndex\6323568e-65ec-42d0-885f-b846c3ef22f1.vsidx" />
+    <None Include=".vs\track-changes\FileContentIndex\ce6cb1eb-1b69-4bfc-a80e-859ce2b24e29.vsidx" />
+    <None Include=".vs\track-changes\FileContentIndex\read.lock" />
+    <None Include=".vs\track-changes\v17\.suo" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="App.config" />
+    <None Include="bin\.DS_Store" />
+    <None Include="bin\Debug\Contrato 01.docx" />
+    <None Include="bin\Debug\track-changes.exe.config" />
+    <None Include="bin\Debug\t2.docx" />
+    <None Include="bin\Debug\word-processing-document-api-track-changes.exe.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\track-changes.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\track-changes.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\track-changes.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="obj\Debug\word-processing-document-api-track-changes.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\word-processing-document-api-track-changes.csproj.CopyComplete" />
+    <None Include="obj\Debug\word-processing-document-api-track-changes.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\word-processing-document-api-track-changes.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="obj\Release\track-changes.csproj.AssemblyReference.cache" />
+    <None Include="track-changes.csproj.bak" />
+    <None Include="t2.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\test\v17\" />
+    <Folder Include=".vs\track-changes\FileContentIndex\merges\" />
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DevExpress.Data.v21.2.dll" />
+    <Content Include="bin\Debug\DevExpress.Data.v21.2.xml" />
+    <Content Include="bin\Debug\DevExpress.Office.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Office.v21.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Drawing.dll" />
+    <Content Include="bin\Debug\DevExpress.Pdf.v21.2.Drawing.xml" />
+    <Content Include="bin\Debug\DevExpress.Printing.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.Printing.v21.2.Core.xml" />
+    <Content Include="bin\Debug\DevExpress.RichEdit.v21.2.Core.dll" />
+    <Content Include="bin\Debug\DevExpress.RichEdit.v21.2.Core.xml" />
+    <Content Include="bin\Debug\de\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Office.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\de\DevExpress.RichEdit.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Office.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\es\DevExpress.RichEdit.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Office.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ja\DevExpress.RichEdit.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Data.v21.2.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Office.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Pdf.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.Printing.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\ru\DevExpress.RichEdit.v21.2.Core.resources.dll" />
+    <Content Include="bin\Debug\WindowsApplication.exe" />
+    <Content Include="bin\Debug\track-changes.pdb" />
+    <Content Include="bin\Debug\word-processing-document-api-track-changes.exe" />
+    <Content Include="bin\Debug\word-processing-document-api-track-changes.pdb" />
+    <Content Include="obj\Debug\track-changes.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\track-changes.exe" />
+    <Content Include="obj\Debug\track-changes.pdb" />
+    <Content Include="obj\Debug\word-processing-document-api-track-changes.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\word-processing-document-api-track-changes.exe" />
+    <Content Include="obj\Debug\word-processing-document-api-track-changes.pdb" />
+    <Content Include="obj\x86\Debug\test.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
